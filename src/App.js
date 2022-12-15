@@ -3,7 +3,6 @@ import Home from './Pages/home'
 import ItemStore from './Pages/items'
 import Cart from './Pages/cart'
 import WishList from './Pages/wishlist'
-// import
 
 function App() {
   return (
