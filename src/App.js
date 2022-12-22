@@ -3,12 +3,14 @@ import Home from './Pages/home'
 import ItemStore from './Pages/items'
 import Cart from './Pages/cart'
 import WishList from './Pages/wishlist'
+import Navbar from './Components/Navbar'
 import Footer from './Components/Footer/index'
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/shop' element={<ItemStore/>} />
